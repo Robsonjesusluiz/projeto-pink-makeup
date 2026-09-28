@@ -1,0 +1,285 @@
+body {
+    background-image: url('./img/marca\ loja\ pink\ makeup.png');
+    /* Caminho ou link da imagem */
+    background-size: cover;
+    /* Faz a imagem cobrir a tela inteira */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-attachment: fixed;
+    /* Mantém o fundo fixo ao rolar a página */
+}
+
+
+:root {
+    --primary-gold: #d04fafad;
+    --dark-charcoal: #dd4abc;
+    --soft-cream: #f9f8f6;
+    --pure-white: #ffffff;
+    --text-gray: #876688;
+    --silver-polish: #e0e0e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--soft-cream);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffffb3;
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: 41px;
+    text-transform: uppercase;
+    color: var(--dark-charcoal);
+    margin-bottom: 0.5rem;
+}
+
+header h1 span {
+    color: #e010ab;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bd43bd;
+
+    header img {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2.5rem;
+}
+
+.card {
+    background: var(--pure-white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 135%;
+    /* Professional aspect ratio for jewelry */
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+
+/* Simulating High-End Studio Photo Manipulation via CSS Realism Filters */
+.jewelry-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.15, 1, 0.3, 1), filter 0.3s ease;
+
+    /* Apply requested professional correction rules globally to mockups */
+    filter: contrast(1.08) brightness(1.02) saturate(1.03) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.06));
+}
+
+/* Selective enhancement properties applied dynamically per type */
+.card[data-type="gold"] .jewelry-img {
+    /* Balance white tones, remove heavy environmental raw yellow, enhance pure rich champagne gold */
+    filter: contrast(1.1) brightness(1.04) hue-rotate(-2deg) saturate(1.05);
+}
+
+.card[data-type="silver"] .jewelry-img {
+    /* Neutralize raw ambient yellow completely, output clean ultra-polished silver highlights */
+    filter: contrast(1.12) brightness(1.06) saturate(0.85);
+}
+
+.card:hover .jewelry-img {
+    transform: scale(1.06);
+    /* Simulates high specularity reflections and enhanced textures on hover */
+    filter: contrast(1.15) brightness(1.08);
+}
+
+.product-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-top: 1px solid #f5f5f5;
+}
+
+.tag-material {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--primary-gold);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--dark-charcoal);
+    margin-bottom: 0.5rem;
+    min-height: 2.6rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.specs-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--text-gray);
+}
+
+.specs-list li {
+    position: relative;
+    padding-left: 12px;
+    margin-bottom: 0.2rem;
+}
+
+.specs-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--primary-gold);
+}
+
+.action-btn {
+    background-color: var(--dark-charcoal);
+    color: var(--pure-white);
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+}
+
+.action-btn:hover {
+    background-color: var(--primary-gold);
+}
+
+footer {
+    background-color: var(--dark-charcoal);
+    color: #0f0e0e;
+    text-align: center;
+    padding: 3rem 1rem;
+    margin-top: 5rem;
+    font-size: 0.85rem;
+    border-top: 4px solid var(--primary-gold);
+    cursor: pointer;
+}
+
+footer p {
+    letter-spacing: 4px;
+}
+
+/* Responsividade Perfeita */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        margin: 1.5rem auto;
+    }
+
+    .gallery-grid {
+        gap: 1.5rem;
+    }
+}
+
+/* Reseta margens padrões do navegador para não quebrar o layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização do texto com o efeito rosa que você pediu antes */
+.whatsapp-fixed {
+    position: fixed;
+    /* Mantém o botão fixo na tela mesmo ao rolar a página */
+    bottom: 20px;
+    /* Distância de 20px da borda inferior */
+    right: 20px;
+    /* Distância de 20px da borda direita */
+    width: 50px;
+    /* Largura do botão */
+    height: 50px;
+    /* Altura do botão */
+    z-index: 9999;
+    /* Garante que o botão fique acima de qualquer outro elemento */
+
+    /* Centraliza a imagem dentro do link e adiciona sombra */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    /* Verde oficial do WhatsApp se precisar de fundo */
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    /* Efeito suave ao passar o mouse */
+}
+
+/* Ajusta o tamanho da imagem interna */
+.whatsapp-fixed img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Efeito de zoom leve ao passar o mouse por cima */
+.whatsapp-fixed:hover {
+    transform: scale(1.1);
+}
