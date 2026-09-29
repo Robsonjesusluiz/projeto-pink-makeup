@@ -1,5 +1,12 @@
-# 🎀 Pink-Makeup — Artigo-Luxuria & Acessórios-Premium
-<img src="https://github.com/Robsonjesusluiz/projeto-pink-makeup/blob/main/img/pink%20makeup%20note%20e%20pc.png?raw=true">
+# 🎀 Pink-Makeup 💍Luxuria & Acessórios-Premium💎​
+
+<a href="https://robsonjesusluiz.github.io/projeto-pink-makeup/">
+    <img src="https://github.com/Robsonjesusluiz/projeto-pink-makeup/blob/main/img/pink%20makeup%20note%20e%20pc.png?raw=true" alt="Pink Makeup" width="100%">
+</a>
+<br>
+<a href="https://robsonjesusluiz.github.io/projeto-pink-makeup/" target="_blank">🎀​Pink-Makeup💄​</a>
+<br>
+<br>
 Uma plataforma de e-commerce e catálogo digital elegante e responsiva, desenvolvida sob medida para a **Pink-Makeup**, especializada na vitrine de semijoias de alta joalheria, maquiagens, kits de autocuidado e acessórios de luxo.
 
 ## 📋 Sobre o Projeto
@@ -43,3 +50,8 @@ A página organiza com precisão cirúrgica uma ampla variedade de produtos divi
 
 ---
 ✨ *Pink-Makeup | Maquiagem e Acessórios — Todos os direitos reservados.*
+
+## ✉️ Contato e Redes Sociais: Robson J.Luiz👨‍💻​
+
+* 👔 **LinkedIn:** [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/robson-j-luiz/)
+* 💻 **GitHub:** [Acesse meu perfil no GitHub](https://github.com/Robsonjesusluiz/)
