@@ -1,5 +1,5 @@
 # 🎀 Pink-Makeup — Artigo-Luxuria & Acessórios-Premium
-
+<img src="https://github.com/Robsonjesusluiz/projeto-pink-makeup/blob/main/img/pink%20makeup%20note%20e%20pc.png?raw=true">
 Uma plataforma de e-commerce e catálogo digital elegante e responsiva, desenvolvida sob medida para a **Pink-Makeup**, especializada na vitrine de semijoias de alta joalheria, maquiagens, kits de autocuidado e acessórios de luxo.
 
 ## 📋 Sobre o Projeto
