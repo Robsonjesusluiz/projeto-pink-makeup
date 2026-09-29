@@ -1,4 +1,4 @@
-<h1>🛍️💍Loja de Bijouterias-Acessórios💎 🎀​Pink-Makeup🌹​</h1>
+💍Loja de Bijouterias-Acessórios💎 🎀​Pink-Makeup🌹​
 
   <img src="https://github.com/Robsonjesusluiz/Projeto-Loja-Bijouterias/blob/main/img/pink%20makeup%20note%20e%20pc.png?raw=true" alt="Texto Alternativo da Imagem" />
 
