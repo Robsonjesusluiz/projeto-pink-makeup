@@ -25,7 +25,7 @@ O mercado de e-commerce de moda exige um forte apelo visual e desempenho impecá
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
-*   **HTML5 Semântico:** Utilização correta de tags estruturais (`<header>`, `<main>`, `<section>`, `<article>`) para garantir SEO aprimorado e acessibilidade.
+*   **HTML5 Semântico:** Utilização correta de tags estruturais header main section article) para garantir SEO aprimorado e acessibilidade.
 *   **CSS3 Puro (Vanilla):** Criação de layouts responsivos estruturados com **Flexbox** para o alinhamento preciso dos grids de produtos.
 *   **Inteligência Artificial (Google Gemini):** Utilizada estrategicamente como co-piloto no fluxo de desenvolvimento para:
     *   Refatoração estética e polimento do design visual do código CSS.
@@ -38,9 +38,9 @@ O mercado de e-commerce de moda exige um forte apelo visual e desempenho impecá
 
 *   **Vitrine Tridimensional de Produtos:** Destaque para características técnicas cruciais de semijoias, como acabamento hipoalergênico e verniz selador protetor.
 *   **Seções Temáticas Organizadas:**
-    *   `Kits Promocionais & Autocuidado` (Ex: Cesta do Amor, Box Love & Care).
-    *   `Correntaria Premium` (Ex: Chokers Elo Grumet, Riviera Imperial).
-    *   `Coleções Esculturais & Kits Completos` (Ex: Relógios de luxo integrados com braceletes).
+    *   Kits Promocionais & Autocuidado (Ex: Cesta do Amor, Box Love & Care).
+    *   Correntaria Premium (Ex: Chokers Elo Grumet, Riviera Imperial).
+    *   Coleções Esculturais & Kits Completos (Ex: Relógios de luxo integrados com braceletes).
 *   **Navegação Direta:** CTAs estruturados para direcionar o cliente imediatamente ao canal de vendas.
 
 ---
