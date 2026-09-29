@@ -1,7 +1,6 @@
 # 🛍️ 💍Loja de Bijouterias-Acessórios💎 🎀​Pink-Makeup🌹​
-<a href="URL_DO_SEU_SITE_AQUI">
   <img src="https://github.com/Robsonjesusluiz/Projeto-Loja-Bijouterias/blob/main/img/pink%20makeup%20note%20e%20pc.png?raw=true" alt="Texto Alternativo da Imagem" />
-</a>
+
 <p align="center">
    🛠️ HTML5
   - CSS3
